@@ -10,7 +10,7 @@ Inspired from previous works done in Automatic Speech Recognition and Computer V
 ## Installation
 Clone GitHub repository and set up environment
 ```
-git clone https://github.com/burchim/EfficientConformer.git
+git clone https://github.com/nguyenthienhy/EfficientConformerVietnamese.git
 cd EfficientConformer
 pip install -r requirements.txt
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
