@@ -9,7 +9,7 @@ Inspired from previous works done in Automatic Speech Recognition and Computer V
 Clone GitHub repository and set up environment
 ```
 git clone https://github.com/nguyenthienhy/EfficientConformerVietnamese.git
-cd EfficientConformer
+cd EfficientConformerVietnamese
 pip install -r requirements.txt
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install protobuf==4.25
@@ -43,7 +43,7 @@ tensorboard --logdir callback_path
 
 <img src="media/logs.jpg"/>
 
-## LibriSpeech Performance
+## Vietnamese Performance
 
 | Model        			| Size     	| Type  | Params (M) | gigaspeech_test/vlsp2023_test_pb/vlsp2023_test_pr gready WER (%)| gigaspeech_test/vlsp2023_test_pb/vlsp2023_test_pr n-gram WER (%) | GPUs |
 | :-------------------:	|:--------:	|:-----:|:----------:|:------:|:------:|:------:|
