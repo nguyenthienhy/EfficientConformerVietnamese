@@ -1,7 +1,5 @@
 # Efficient Conformer: Progressive Downsampling and Grouped Attention for Automatic Speech Recognition
 
-Official implementation of the Efficient Conformer, progressively downsampled Conformer with grouped attention for Automatic Speech Recognition.
-
 **Efficient Conformer [Paper](https://arxiv.org/abs/2109.01163)**
 
 ## Efficient Conformer Encoder
@@ -31,7 +29,7 @@ Steps:
 - Extract audio length and BPE tokens using prepare_dataset.py.
 - Filter audio by the maximum length specified, and save the list of audio files used for training in a .txt file, for example: data/train_wav_names.txt.
 - Train the model using train.py (please read the parameters carefully).
-- Prepare a lm_corpus.txt to train n gram bpe language model, using train_lm.py
+- Prepare a lm_corpus.txt to train n-gram bpe language model, using train_lm.py
 
 ## Evaluation
 Please read code carefully !
