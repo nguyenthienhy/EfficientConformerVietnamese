@@ -47,7 +47,7 @@ tensorboard --logdir callback_path
 
 | Model        			| Size     	| Type  | Params (M) | gigaspeech_test/vlsp2023_test_pb/vlsp2023_test_pr gready WER (%)| gigaspeech_test/vlsp2023_test_pb/vlsp2023_test_pr n-gram WER (%) | GPUs |
 | :-------------------:	|:--------:	|:-----:|:----------:|:------:|:------:|:------:|
-| Efficient Conformer	| Small		| CTC 	| 13.4  | 19.61 / 23.06 / 23.17 | 17.86 / 21.11 / 21.42 | 1 x RTX 3090 |
+| Efficient Conformer	| Small		| CTC 	| 13.4  | 19.61 / 23.06 / 23.17 | 17.47 / 20.83 / 21.15 | 1 x RTX 3090 |
 
 In the competition organized by VLSP, I used the Efficient Conformer Large architecture with approximately 127 million parameters. You can find the detailed results in the technical report below:
 https://www.overleaf.com/read/nhqjtcpktjyc#3b472e
